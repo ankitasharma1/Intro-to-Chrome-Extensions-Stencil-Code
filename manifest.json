@@ -21,7 +21,9 @@
   ],
 
   // could do browser_action or page_action or none
-  // read more about browser_action: https://developer.chrome.com/extensions/browserAction
+  
+  // broser action: for features that make sense for most pages
+  // page actions: for features that make sense for only a few pages
   "browser_action": {
     // icon in the google chrome toolbar
     "default_icon": "icon.png",
